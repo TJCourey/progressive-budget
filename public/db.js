@@ -18,8 +18,8 @@ request.onerror = function (e) {
   console.log(`Woops! ${e.target.errorCode}`);
 };
 function saveRecord(record) {
-  const transaction = db.transaction(["budgetStore"], "readwrite");
-  const save = transaction.objectStore("budgetStore");
+  const transaction = db.transaction(["BudgetStore"], "readwrite");
+  const save = transaction.objectStore("BudgetStore");
   save.add(record);
 }
 
@@ -44,13 +44,12 @@ function checkDatabase() {
             transaction = db.transaction(["BudgetStore"], "readwrite");
             const currentStore = transaction.objectStore("BudgetStore");
             currentStore.clear();
-            console.log("Clearing store 🧹");
+            console.log("Clearing store");
           }
         });
     }
   };
 }
-
 request.onsuccess = function (e) {
   console.log("success");
   db = e.target.result;
