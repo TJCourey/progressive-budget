@@ -1,3 +1,4 @@
+![screenshot](https://user-images.githubusercontent.com/30154584/122830256-54dae300-d2a5-11eb-83c8-b9e6f189eee8.png)
 # progressive-budget
 
 
@@ -14,7 +15,8 @@ This is a simple application to keep track of a budget both online and offline. 
 ## Usage
 To use the app simply visit: https://sheltered-tundra-23663.herokuapp.com/    
       
-    ![budget tracker](./public/icons/screenshot.png)
+    ![screenshot](https://user-images.githubusercontent.com/30154584/122830328-6d4afd80-d2a5-11eb-803b-8fc9365e780d.png)
+
 
 ## Credits
 
